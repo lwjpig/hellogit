@@ -33,10 +33,11 @@ int main()
    ss>>student[number].name;
    ss>>student[number].sex;
 
+    if(student[number].sex[0]='M')
       m_n++;
-     }
    else 
      f_n++;
+
    ss>>student[number].score;
    if(student[number].sex[0]=='M')
     {
